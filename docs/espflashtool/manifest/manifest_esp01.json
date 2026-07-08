@@ -1,0 +1,14 @@
+{
+  "name": "Daly2MQTT ESP01 latest",
+  "version": "latest",
+  "funding_url": "https://github.com/softwarecrash/Daly2MQTT",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "../Daly2MQTT_esp01_1m_2.8.3.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

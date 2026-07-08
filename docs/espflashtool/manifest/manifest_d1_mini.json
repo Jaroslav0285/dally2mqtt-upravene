@@ -1,0 +1,15 @@
+{
+    "name": "Daly2MQTT D1 Mini/Pro latest",
+    "version": "latest",
+    "funding_url": "https://github.com/softwarecrash/Daly2MQTT",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP8266",
+        "parts": [
+          { "path": "../Daly2MQTT_d1_mini_2.8.3.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  
