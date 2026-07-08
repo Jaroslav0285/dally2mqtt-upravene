@@ -26,7 +26,7 @@ jobs:
 
       - name: Build firmware
         run: |
-          pio run
+          pio run -e d1_mini
 
       - name: Upload firmware
         uses: actions/upload-artifact@v4
