@@ -31,6 +31,6 @@ jobs:
       - name: Upload firmware
         uses: actions/upload-artifact@v4
         with:
-          name: Daly2MQTT-firmware
+          name: Daly2MQTT-Wemos-D1-mini
           path: |
-            .pio/build/esp01_1m/*.bin
+            .pio/build/d1_mini/*.bin
